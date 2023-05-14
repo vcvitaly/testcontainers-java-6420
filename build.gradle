@@ -21,12 +21,9 @@ dependencies {
 	testImplementation "org.testcontainers:testcontainers:${testcontainersVersion}"
 	testImplementation "org.testcontainers:junit-jupiter:${testcontainersVersion}"
 	testImplementation "org.testcontainers:postgresql:${testcontainersVersion}"
-	testImplementation "org.testcontainers:mockserver:${testcontainersVersion}"
-//	testImplementation "org.testcontainers:k3s:${testcontainersVersion}"
 
 	implementation 'org.postgresql:postgresql'
 
-	testImplementation 'org.mock-server:mockserver-client-java:5.15.0'
 	testImplementation 'org.assertj:assertj-core:3.24.2'
 }
 
